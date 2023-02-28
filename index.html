@@ -5,11 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi CV Carnaghi Carlos</title>
-    <link rel="icon" href="C:\VISUAL\proyecto CV\rayo.ico">
-<link rel="stylesheet" href="C:\VISUAL\proyecto CV\css\estilos.css">
+    <link rel="icon" href="rayo.ico">
+<link rel="stylesheet" href="estilos.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/0d9d2f4912.js" crossorigin="anonymous"></script>
 
 </head>
 
@@ -17,12 +18,12 @@
 <header>
 <nav>
 <ul>  
-    <li><a href="#dato"></a>Datos</li>
-    <li>Estudios</li>
-    <li>Conocimiento</li>
-    <li>Experiencia</li>
-    <li>Referencia</li>
-    <li>Contacto</li>
+    <li><a id="d" href="#dato">Datos</a></li>
+    <li><a id="d" href="#estu">Estudios</a></li>
+    <li><a id="d" href="#cono">Conocimientos</a></li>
+    <li><a id="d" href="#expe">Experiencia</a></li>
+    <li><a id="d" href="#refe">Referencia</a></li>
+    <li><a id="d" href="#conta">Contacto</a></li>
 </ul>
     
     
@@ -41,9 +42,9 @@
         <img id="imagen" src="cara.jpg" alt="imagen de la persona del cv">
     </div>
 
-    <section class="datos">
+    <section class="datos" id="dato">
     <div>
-        <h2 id="dato">Datos Personales</h2>
+        <h2>Datos Personales</h2>
     <ul>
     <li>Nacionalidad:Argetino</li><br>
     <li>Edad: 43 años</li><br>
@@ -54,7 +55,7 @@
 </ul>
 </div>
 
-    <div class="estudios" >
+    <div class="estudios"  id="estu">
         <h2>Estudios</h2>
         <ul>
             <li>Primario Completo:Escuela N°23</li><br>
@@ -68,7 +69,7 @@
             
         </ul>
     </div>
-    <div class="conocimientos" >
+    <div class="conocimientos" id="cono" >
         <h2>Conocimientos</h2>
         <ul>
             <li>Microsoft office: Nivel Intermedio</li><br>
@@ -90,7 +91,7 @@
     </div>
 
 
-    <div class="experiencia" >
+    <div class="experiencia" id="expe" >
         <h2>Experiencia Laboral</h2>
         <ul>
             <li>Mac Donald : Atencion</li><br>
@@ -109,9 +110,10 @@
 
     <div >
         <h2>Referencia Laboral</h2> </div>
-<div class="referencia">
+<div class="referencia" id="refe">
        
 <img id="galicia" src="galicia.jpg" alt="Banco Galicia">
+
 <h3 id="gali">Banco Galicia</h3>
         
 <img id="Bingo" src="bingolanus.jpg" alt="Bingo Lanus">
@@ -120,13 +122,27 @@
         <img id="carrefour" src="Carrefour.jpg" alt="">
         <h3 id="car">Carrefour</h3>
     </div>
-    <div class="Contacto" >
+    <div class="Contacto" id="conta" >
         <h2>Contacto</h2>
     </div>
- 
+ <div id="con">
+    
+    <button id="wha"><i class="fa-brands fa-whatsapp"></i></button>
+    <span>1548795263</span>
+    <button id="mail"> <i class="fa-solid fa-envelopes-bulk"></i></button>
+    <span>carlosc@gmail.com</span>
+ </div><br><br><br>
+<div>
+
+
+<p id="twi">twitter</p>
+
+<button type="boton"  id="tw">Otro contacto</button>
 
 
 
+</div>
+<script src="cilp.js"> </script>
     
 </body>
 </html>
