@@ -1,0 +1,82 @@
+body{
+
+    background-color: lightgrey;
+    font-family: 'Roboto', sans-serif;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+ 
+
+nav ul li{
+    margin-left: 20px;
+    margin-right: 20px;
+    padding:10px 20px;
+    background-color:gray;
+}
+
+header{
+    
+    padding-right: 30px;
+   
+    
+}
+.datos{
+    margin-left: 40px;
+    padding-left: 40px;
+    padding-bottom: 50px;
+    margin-right: 450px;
+    border-style:outset;
+
+  }
+
+h2{
+    border-style:outset;
+    margin-right: 30px;
+}
+h1{
+    text-align: center;
+}
+
+.encabezado{
+
+    font-size: 30px;
+   text-align: center ; }
+    
+ #imagen{
+    margin-left: 900px;
+    border-radius: 250px;
+    width: 380px;
+    height: 300px;}   
+.referencia{
+    display: flex;
+    flex-wrap: wrap;
+    
+}    
+#galicia{
+    margin-block-end: 40px;
+    
+}
+
+ #Bingo{
+    width: 260px;
+ }
+ #gali{
+    margin-top: 80px;
+    margin-right: 15px;
+    margin-left: 8px;
+ }
+ #bin{    margin-left: 15px;
+    margin-top: 80px;
+
+ }
+ #car{
+    margin-left: 15px;
+    margin-top: 80px;
+ }
+
+
+
+    
